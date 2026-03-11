@@ -1,38 +1,89 @@
-# Student Score Prediction using Machine Learning
+# 📊 Student Score Prediction using Machine Learning
 
-Full Name: Devareddy Mayuri  
-Email: mayuridevareddy@gmail.com  
-College: N.B.K.R Institute of Science and Technology  
-Selected Skill Track: AI & Machine Learning
+## 📌 Project Overview
 
-Project Description:
-This project predicts student exam scores based on study hours using a Machine Learning model. The dataset is analyzed and a Linear Regression model is trained to understand the relationship between study hours and exam performance.
+This project predicts **student exam scores based on the number of hours studied** using a **Machine Learning model**.
+A **Linear Regression algorithm** is used to learn the relationship between study hours and exam performance.
 
-Technologies Used:
-Python  
-Pandas  
-Matplotlib  
-Scikit-learn  
+The project demonstrates basic **data analysis, model training, prediction, and visualization** using Python.
 
-Project Workflow:
-1. Load dataset of student study hours and exam scores
-2. Train a Linear Regression model
-3. Predict exam scores based on study hours
-4. Visualize the prediction results
+---
 
-Output:
-Predicted score for given study hours and a visualization saved as prediction_graph.png.
+## ⚙️ Technologies Used
 
-Skills Demonstrated:
-Python Programming
-Machine Learning Basics
-Data Analysis
-Data Visualization
+* Python
+* Pandas
+* Matplotlib
+* Scikit-learn (Machine Learning)
 
-Installation Instructions:
+---
 
-pip install pandas matplotlib scikit-learn
+## 📂 Dataset
 
-Run Command:
+The dataset contains two columns:
 
-python3 main.py
+| Hours Studied | Score |
+| ------------- | ----- |
+| 1             | 35    |
+| 2             | 40    |
+| 3             | 50    |
+| 4             | 55    |
+| 5             | 60    |
+| 6             | 65    |
+| 7             | 70    |
+| 8             | 80    |
+| 9             | 88    |
+| 10            | 95    |
+
+This dataset is used to train the **Linear Regression model**.
+
+---
+
+## 🤖 Machine Learning Model
+
+The project uses **Linear Regression** from `scikit-learn` to predict the student score.
+
+Model workflow:
+
+1. Load dataset using **Pandas**
+2. Separate **input (Hours)** and **output (Score)**
+3. Train **Linear Regression model**
+4. Predict score for new study hours
+5. Visualize results using **Matplotlib**
+
+---
+
+## 📈 Output
+
+Example prediction from the model:
+
+Predicted Score for 7.5 study hours: ~76
+
+The project also generates a visualization showing:
+
+* Actual student scores (blue dots)
+* Regression prediction line (red line)
+
+---
+
+## 📊 Visualization
+
+The model generates the following graph:
+
+![Prediction Graph](prediction_graph.png)
+
+---
+
+## 🚀 Skills Demonstrated
+
+* Data Analysis
+* Machine Learning Basics
+* Data Visualization
+* Python Programming
+
+---
+
+## 👩‍💻 Author
+
+**Devareddy Mayuri**
+Aspiring Data Analyst | Python | SQL | Data Visualization | Machine Learning
